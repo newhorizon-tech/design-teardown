@@ -1,11 +1,20 @@
-
 /* General */
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
+button {
+  border: 1px solid black;
+}
 .flex {
   display: flex;
 }
@@ -27,7 +36,7 @@
   top: 0;
 }
 
-.navbar p{
+.navbar p {
   background-color: #8b8b8b;
 }
 
@@ -60,7 +69,62 @@
   margin: 4px auto;
 }
 
-.first-article-grid div{
+.first-article-grid div {
   background-color: #4a4a4a;
   padding: 17% 12%;
+}
+
+.latest-posts {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+.post {
+  grid-column-end: span 1;
+  padding: 80px;
+  background: #ddd;
+}
+
+.membership-banner {
+  grid-column-end: span 2;
+  padding-top: 100px;
+  justify-self: center;
+  background: #ccc;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.upcoming-eps {
+  background: #ccc;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px;
+}
+
+.fake-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #444;
+  margin: 20px auto;
+}
+
+.upcoming-eps > h3 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.upcoming-eps > p {
+  font-size: 16px;
+}
+
+.upcoming-eps > button {
+  color: white;
+  background: #444;
+  padding: 10px 30px;
+  margin: 20px auto;
 }
