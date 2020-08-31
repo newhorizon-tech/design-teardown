@@ -122,7 +122,7 @@ button {
   font-size: 16px;
 }
 
-.upcoming-eps > button {
+.btn {
   color: white;
   background: #444;
   padding: 10px 30px;
@@ -133,4 +133,23 @@ button {
   width: 9%;
   background-color: #797979;
   margin: 20px auto;
+}
+
+.book-promo {
+  height: 1065px;
+  width: 100%;
+  background-color: #797979;
+  text-align: center;
+  padding: 10% 25%;
+}
+
+.book-promo-img{
+  height: 360px;
+  width: 100%;
+  background-color: green;
+  margin: 0;
+}
+
+.book-promo > *{
+  margin: 5% 0;
 }
