@@ -52,3 +52,15 @@
   padding: 10px 40px;
   margin: 4px auto;
 }
+
+.first-article-grid {
+  width: 98%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 4px auto;
+}
+
+.first-article-grid div{
+  background-color: #4a4a4a;
+  padding: 17% 12%;
+}
