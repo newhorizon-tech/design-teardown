@@ -128,3 +128,9 @@ button {
   padding: 10px 30px;
   margin: 20px auto;
 }
+
+.more-link {
+  width: 9%;
+  background-color: #797979;
+  margin: 20px auto;
+}
