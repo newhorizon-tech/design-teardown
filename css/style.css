@@ -165,3 +165,33 @@ button {
   margin-top: 20px;
   width: 60%;
 }
+
+.community-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 10px;
+  grid-gap: 20px;
+}
+
+.community-article {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: #ddd;
+}
+
+.design-systems {
+  grid-template-columns: 70% 30%;
+  background-color: #ddd;
+}
+
+.design-systems > div {
+  margin: 20px;
+}
+
+.design-systems > .fake-pic {
+  border-radius: 0;
+  width: 60%;
+  height: 80%;
+}
+
