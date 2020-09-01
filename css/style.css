@@ -38,22 +38,55 @@ button {
   width: 100px;
   height: 100px;
   background: #444;
-  margin: 20px auto;
+}
+
+.btn {
+  background: #444;
+  padding: 10px 30px;
+}
+
+.more-link {
+  width: 15%;
+  padding: 10px 30px;
+  background: #ddd;
 }
 
 .zero-border {
   border-radius: 0;
 }
 
+.centered-text {
+  text-align: center;
+}
+
+.btn,
+.more-link,
+.fake-pic {
+  margin: 20px auto;
+}
+
+.latest-posts,
+.upcoming-eps,
+.design-systems > div,
+.our-guides {
+  margin: 20px;
+}
+
+.tier-1,
+.tier-2,
+.tier-3,
+.tier-4,
+.btn {
+  color: white;
+}
+
 /* Visual Hierarchy */
 .tier-1 {
   background-color: #333;
-  color: white;
 }
 
 .tier-2 {
   background-color: #555;
-  color: white;
 }
 
 .tier-3 {
@@ -72,8 +105,6 @@ button {
 .navbar {
   justify-content: space-around;
   align-items: center;
-  margin: 0;
-  width: 100%;
   height: 102px;
   top: 0;
 }
@@ -119,7 +150,6 @@ button {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 2fr 1fr;
   grid-gap: 10px;
-  margin: 20px;
 }
 
 .post {
@@ -132,13 +162,10 @@ button {
   padding-top: 100px;
   justify-self: center;
   width: 100%;
-  text-align: center;
 }
 
 .upcoming-eps {
-  text-align: center;
   padding: 40px 20px;
-  margin: 20px;
 }
 
 .pic-square {
@@ -158,31 +185,13 @@ button {
   font-size: 16px;
 }
 
-.btn {
-  color: white;
-  background: #444;
-  padding: 10px 30px;
-  margin: 20px auto;
-}
-
-.more-link {
-  width: 15%;
-  padding: 10px 30px;
-  margin: 20px auto;
-  background: #ddd;
-}
-
 .book-promo {
   height: 1065px;
-  width: 100%;
-  text-align: center;
   padding: 10% 25%;
 }
 
 .book-promo-img {
   height: 360px;
-  width: 100%;
-  margin: 0;
 }
 
 .book-promo > * {
@@ -201,7 +210,6 @@ button {
 }
 
 .community-articles {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin: 10px;
@@ -217,10 +225,6 @@ button {
   grid-template-columns: 70% 30%;
 }
 
-.design-systems > div {
-  margin: 20px;
-}
-
 .design-systems > .fake-pic {
   width: 60%;
   height: 80%;
@@ -230,7 +234,6 @@ button {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 3fr;
   grid-gap: 10px 20px;
-  margin: 20px;
 }
 
 .guide {
@@ -238,7 +241,6 @@ button {
 }
 
 .small-box {
-  text-align: center;
   background-color: #ccc;
   width: 70%;
   margin: 0 auto;
