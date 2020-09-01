@@ -37,7 +37,7 @@ It uses the concept of the visual hierarchy to differentiate between different e
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/newhorizon-tech/design-teardown/issues).
 
 ## Show your support
 
