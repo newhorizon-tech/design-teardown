@@ -34,7 +34,6 @@ button {
   display: grid;
 }
 
-
 .fake-pic {
   width: 100px;
   height: 100px;
@@ -45,6 +44,7 @@ button {
 .zero-border {
   border-radius: 0;
 }
+
 /* Visual Hierarchy */
 .tier-1 {
   background-color: #333;
@@ -77,6 +77,7 @@ button {
 .test * {
   border-radius: 0;
 }
+
 /* Navigation Bar */
 .navbar {
   justify-content: space-around;
@@ -98,6 +99,7 @@ button {
 .search-nav {
   padding: 15px 60px;
 }
+
 /* Articles */
 .article-teaser {
   width: 20%;
@@ -148,7 +150,6 @@ button {
   padding: 40px 20px;
   margin: 20px;
 }
-
 
 .pic-square {
   border-radius: 10%;
