@@ -1,5 +1,4 @@
 /* General */
-
 *,
 *::after,
 *::before {
@@ -12,9 +11,20 @@ html {
   font-size: 14px;
 }
 
+body * {
+  border-radius:10px;
+  font-family: 'Spectral', serif;
+}
+
+h2,h3 {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
 button {
   border: 1px solid black;
 }
+
 .flex {
   display: flex;
 }
@@ -23,8 +33,15 @@ button {
   display: grid;
 }
 
-/* Navigation Bar */
+.zero-border {
+  border-radius: 0;
+}
 
+/* Visual Hierarchy */
+
+.one{}
+
+/* Navigation Bar */
 .navbar {
   justify-content: space-around;
   align-items: center;
@@ -51,9 +68,7 @@ button {
 .search-nav {
   padding: 15px 60px;
 }
-
 /* Articles */
-
 .article-teaser {
   width: 20%;
   background-color: #8b8b8a;
@@ -92,14 +107,12 @@ button {
   padding-top: 100px;
   justify-self: center;
   background: #ccc;
-  border-radius: 10px;
   width: 100%;
   text-align: center;
 }
 
 .upcoming-eps {
   background: #ccc;
-  border-radius: 10px;
   text-align: center;
   padding: 40px 20px;
   margin: 20px;
@@ -108,9 +121,16 @@ button {
 .fake-pic {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
   background: #444;
   margin: 20px auto;
+}
+
+.pic-square {
+  border-radius: 10%;
+}
+
+.pic-circle {
+  border-radius: 50%;
 }
 
 .upcoming-eps > h3 {
@@ -143,25 +163,25 @@ button {
   padding: 10% 25%;
 }
 
-.book-promo-img{
+.book-promo-img {
   height: 360px;
   width: 100%;
   background-color: green;
   margin: 0;
 }
 
-.book-promo > *{
+.book-promo > * {
   margin: 5% 0;
 }
 
-.person-week{
+.person-week {
   margin-top: 20px;
   padding-top: 30px;
   background-color: #828282;
   grid-template-columns: 20% 80%;
 }
 
-.person-week p{
+.person-week p {
   margin-top: 20px;
   width: 60%;
 }
@@ -190,7 +210,6 @@ button {
 }
 
 .design-systems > .fake-pic {
-  border-radius: 0;
   width: 60%;
   height: 80%;
 }
@@ -216,4 +235,24 @@ button {
   width: 70%;
   margin: 0 auto;
 }
+/* Footer */
 
+footer {
+  background-color: #a7a8a8;
+}
+ul {
+  list-style-position: inside;
+}
+
+li {
+  float: left;
+  padding-left: 5px;
+}
+
+.footer-content {
+  clear:both;
+  background-color: grey;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+}
