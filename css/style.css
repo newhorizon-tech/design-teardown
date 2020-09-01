@@ -1,0 +1,280 @@
+/* General */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body * {
+  border-radius: 10px;
+  font-family: "Spectral", serif;
+}
+
+h2,
+h3 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+button {
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.fake-pic {
+  width: 100px;
+  height: 100px;
+  background: #444;
+}
+
+.btn {
+  background: #444;
+  padding: 10px 30px;
+}
+
+.more-link {
+  width: 15%;
+  padding: 10px 30px;
+  background: #ddd;
+}
+
+.zero-border {
+  border-radius: 0;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.btn,
+.more-link,
+.fake-pic {
+  margin: 20px auto;
+}
+
+.latest-posts,
+.upcoming-eps,
+.design-systems > div,
+.our-guides {
+  margin: 20px;
+}
+
+.tier-1,
+.tier-2,
+.tier-3,
+.tier-4,
+.btn,
+li a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Visual Hierarchy */
+.tier-1 {
+  background-color: #333;
+}
+
+.tier-2 {
+  background-color: #555;
+}
+
+.tier-3 {
+  background-color: #999;
+}
+
+.tier-4 {
+  background-color: #aaa;
+}
+
+.tier-5 {
+  background-color: #ccc;
+}
+
+/* Navigation Bar */
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+  height: 102px;
+  top: 0;
+}
+
+.nav-element {
+  padding: 10px 25px;
+}
+
+.main-nav-logo {
+  padding: 15px 40px;
+}
+
+.search-nav {
+  padding: 15px 60px;
+}
+
+/* Articles */
+.article-teaser {
+  width: 20%;
+  font-size: 28px;
+  padding: 10px 40px;
+  margin: 4px auto;
+}
+
+.first-article-grid {
+  width: 98%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 4px auto;
+}
+
+.first-article-grid div {
+  padding: 17% 12%;
+}
+
+.first-article-grid .fake-pic {
+  padding: 0;
+  float: left;
+  margin: 0 20px;
+}
+
+.latest-posts {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.post {
+  grid-column-end: span 1;
+  padding: 80px;
+}
+
+.membership-banner {
+  grid-column-end: span 2;
+  padding-top: 100px;
+  justify-self: center;
+  width: 100%;
+}
+
+.upcoming-eps {
+  padding: 40px 20px;
+}
+
+.pic-square {
+  border-radius: 10%;
+}
+
+.pic-circle {
+  border-radius: 50%;
+}
+
+.upcoming-eps > h3 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.upcoming-eps > p {
+  font-size: 16px;
+}
+
+.book-promo {
+  height: 1065px;
+  padding: 10% 25%;
+}
+
+.book-promo-img {
+  height: 360px;
+}
+
+.book-promo > * {
+  margin: 5% 0;
+}
+
+.person-week {
+  margin-top: 20px;
+  padding: 30px 0;
+  grid-template-columns: 20% 80%;
+}
+
+.person-week p {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.community-articles {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 10px;
+  grid-gap: 20px;
+}
+
+.community-article {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.design-systems {
+  grid-template-columns: 70% 30%;
+}
+
+.design-systems > .fake-pic {
+  width: 60%;
+  height: 80%;
+}
+
+.our-guides {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 3fr;
+  grid-gap: 10px 20px;
+}
+
+.guide {
+  padding: 10px;
+}
+
+.small-box {
+  background-color: #ccc;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer ul {
+  list-style-position: inside;
+  list-style-type: "⚪";
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.footer-content {
+  clear: both;
+  background-color: grey;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.list {
+  justify-content: center;
+  flex-wrap: wrap;
+}
