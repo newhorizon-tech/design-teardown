@@ -12,11 +12,12 @@ html {
 }
 
 body * {
-  border-radius:10px;
+  border-radius: 10px;
   font-family: 'Spectral', serif;
 }
 
-h2,h3 {
+h2,
+h3 {
   font-family: 'Lora', serif;
   font-size: 20px;
 }
@@ -36,11 +37,36 @@ button {
 .zero-border {
   border-radius: 0;
 }
-
 /* Visual Hierarchy */
+.tier-1 {
+  background-color: #333;
+}
 
-.one{}
+.tier-2 {
+  background-color: #555;
+}
 
+.tier-3 {
+  background-color: #999;
+}
+
+.tier-4 {
+  background-color: #AAA;
+}
+
+.tier-5 {
+  background-color: #CCC;
+}
+
+.test {
+  width: 100%;
+  height: 600px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.test * {
+  border-radius: 0;
+}
 /* Navigation Bar */
 .navbar {
   justify-content: space-around;
@@ -236,10 +262,10 @@ button {
   margin: 0 auto;
 }
 /* Footer */
-
 footer {
   background-color: #a7a8a8;
 }
+
 ul {
   list-style-position: inside;
 }
@@ -250,7 +276,7 @@ li {
 }
 
 .footer-content {
-  clear:both;
+  clear: both;
   background-color: grey;
   width: 80%;
   height: 80px;
