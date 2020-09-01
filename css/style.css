@@ -195,3 +195,25 @@ button {
   height: 80%;
 }
 
+.our-guides {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 3fr;
+  grid-gap: 10px 20px;
+  margin: 20px;
+}
+
+.guide {
+  padding: 10px;
+}
+
+.newsletter {
+  background-color: #333;
+}
+
+.small-box {
+  text-align: center;
+  background-color: #ccc;
+  width: 70%;
+  margin: 0 auto;
+}
+
