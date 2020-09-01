@@ -7,7 +7,7 @@
 ![screenshot](./app_screenshot.png)
 
 The project tries to analyse the original webpage of the "Smashing Magazine".
-It uses the concept of the visual hierarchy to differntiate between different elements present on the webpage.
+It uses the concept of the visual hierarchy to differentiate between different elements present on the webpage.
 
 ## Built With
 
